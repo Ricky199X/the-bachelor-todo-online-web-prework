@@ -15,7 +15,7 @@ end
 
 def get_contestant_name(data, occupation)
   # binding.pry
-  data[occupation].each do |person|
+  data.each do |person|
     person.each do |k, v|
       if k == "occupation"
         contestant = person["name"]
