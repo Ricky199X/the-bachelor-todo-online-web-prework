@@ -16,9 +16,10 @@ end
 def get_contestant_name(data, occupation)
   # binding.pry
   data.each do |season, array|
-    array.each do |k, v|
-      if v == occupation
-        return person["name"]
+    array.each do |contestant|
+      contestant.each |k, v|
+        if v == occupation
+          return contestant["name"]
       end
     end
   end
