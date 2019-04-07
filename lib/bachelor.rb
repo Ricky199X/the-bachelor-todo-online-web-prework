@@ -43,6 +43,8 @@ def count_contestants_by_hometown(data, hometown)
   hometown_count
 end
 
+Build a method get_occupation, that takes in two arguments––the data hash and a string of a hometown. It returns the occupation of the first contestant who hails from that hometown.
+
 def get_occupation(data, hometown)
   # code here
 end
