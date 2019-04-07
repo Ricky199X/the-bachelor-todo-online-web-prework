@@ -14,7 +14,7 @@ end
 # Build a method, get_contestant_name, that takes in the data hash and an occupation string and returns the name of the woman who has that occupation.
 
 def get_contestant_name(data, occupation)
-  binding.pry
+  # binding.pry
   data[occupation].each do |person|
     person.each do |k, v|
       if k == "occupation"
