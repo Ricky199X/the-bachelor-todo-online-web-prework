@@ -63,6 +63,9 @@ end
 def get_average_age_for_season(data, season)
   count = 0
   total_age = 0
+  data[season].each do |people|
+    people.each do |key, values|
+      if key 
 end
 
 
