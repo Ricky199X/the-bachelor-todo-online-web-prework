@@ -49,7 +49,7 @@ def get_occupation(data, hometown)
   data.each do |season, array|
     array.each do |people|
       people.each do |key, value|
-        person = value.find()
+        person = value.find {|i| i == hometown}
 end
 
 def get_average_age_for_season(data, season)
