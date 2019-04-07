@@ -30,7 +30,7 @@ end
 # Build a method, count_contestants_by_hometown, that takes in two arguments––the data hash and a string of a hometow. This method should return a counter of the number of contestants who are from that hometown.
 
 def count_contestants_by_hometown(data, hometown)
-  data[]
+  data.each do ||
 end
 
 def get_occupation(data, hometown)
